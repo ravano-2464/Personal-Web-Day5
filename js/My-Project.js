@@ -60,11 +60,7 @@ function submitData(event) {
                 technologies: technologiesValue,
                 image: imageUrl,
                 postAt: new Date(),
-                author: "Ravano Akbar Widodo",
-                nodeJs: true,
-                reactJs: true,
-                nextJs: false,
-                typescript: false,
+                author: "Ravano Akbar Widodo"
             }
 
             dataMyProject.push(MyProject);
@@ -95,7 +91,7 @@ function renderMyProject() {
                 <div class="detail-My-Project-content">
                     ${dataMyProject[index].postAt} | ${dataMyProject[index].author}
                 </div>
-                <p>
+                <p style="text-align: center;">
                    ${dataMyProject[index].content}
                 </p>
                 <div class="technologies">

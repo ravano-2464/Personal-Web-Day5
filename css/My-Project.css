@@ -10,12 +10,6 @@
 
 .btn-contact,
 .btn-submit {
-    background-color: #333;
-    color: #fff;
-}
-
-.btn-contact:hover,
-.btn-submit:hover {
     background-color: #f7f7f7;
     color: #333;
     padding: 10px;
@@ -28,12 +22,19 @@
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+
+.btn-contact:hover,
+.btn-submit:hover {
+    background-color: #333;
+    color: #fff;
+}
+
 .nav-link {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .nav-link a {
-    color: #333;
+    color: black;
     white-space: nowrap;
     display: block;
     text-decoration: none;
@@ -42,6 +43,50 @@
 .nav-link a:hover {
     color: orangered;
 }
+
+.checkbox {
+    white-space: nowrap;
+    display: block;
+}
+
+.My-Project-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+   }
+    
+    .text-checkbox {
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+   }
+
+    .checkbox div {
+        display: flex;
+        align-items: center;
+        margin-bottom: 8px;
+   }
+
+    .checkbox input {
+        margin-right: 8px;
+   }
+
+    .form-container {
+        max-width: 600px;
+        margin: auto;
+   }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+   }
+
+    .button-group {
+        text-align: center;
+   }
 
 .My-Project-form {
     padding: 50px 0;
@@ -99,20 +144,21 @@
 }
 
 .My-Project-form form button {
-    margin-top: 20px;
-    padding: 8px 20px;
+    background-color: #f7f7f7;
+    color: #333;
+    padding: 10px;
+    width: 130px;
     font-size: 16px;
-    background: #333;
-    border-radius: 8px;
-    border: none;
-    color: #fff;
-    cursor: pointer;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid #333;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .My-Project-form form button:hover {
-    background-color: #f7f7f7;
-    color: #333;
+    background-color: #333;
+    color: #fff;
 }
 
 .My-Project hr {
@@ -164,20 +210,20 @@
 
 .My-Project .My-Project-list .btn-group .btn-edit,
 .My-Project .My-Project-list .btn-group .btn-post {
-    padding: 5px 10px;
-    border: 0;
-    border-radius: 4px;
-    cursor: pointer;
+    background-color: #f7f7f7;
+    color: #333;
+    padding: 10px;
+    width: 130px;
+    font-size: 16px;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid #333;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.My-Project .My-Project-list .btn-group .btn-edit {
+.My-Project .My-Project-list .btn-group .btn-edit .btn-post {
     background: #f7f7f7;
-}
-
-.My-Project .My-Project-list .btn-group .btn-post {
-    background: #333;
-    color: #fff;
 }
 
 .My-Project .My-Project-list .btn-group .btn-edit:hover,
@@ -187,8 +233,8 @@
 }
 
 .My-Project .My-Project-list h1 a {
+    color: black;
     text-decoration: none;
-    color: #000;
 }
 
 .My-Project .My-Project-list .detail-My-Project-content {
