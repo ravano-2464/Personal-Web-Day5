@@ -105,7 +105,8 @@ function renderMyProject() {
                         ${dataMyProject[index].technologies.map((tech) => `<li>${tech}</li>`).join('')}
                     </ul>
                 </div>
-                <div class="card-icons">
+                <br>
+                <div class="card-icons" style ="text-align: left;">
                      <i class="fa-brands fa-google-play fa-xl"></i>
                      <i class="fa-brands fa-android fa-xl"></i>
                      <i class="fa-brands fa-java fa-lg"></i>
