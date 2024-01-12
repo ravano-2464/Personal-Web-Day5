@@ -86,14 +86,15 @@ function renderMyProject() {
                     <button class="btn-edit">Edit Post</button>
                     <button class="btn-post">Delete Post</button>
                 </div>
-                <h1>
+                <h1 style="text-align: left;">
                     <a href="My-Project-detail.html" target="_blank">${dataMyProject[index].title}</a>
                 </h1>
-                <h3>Duration : ${dataMyProject[index].duration}</h3>
+                <h3 style="text-align: left;">Duration : ${dataMyProject[index].duration}</h3>
                 <br>
-                <div class="detail-My-Project-content">
-                    ${dataMyProject[index].postAt} | ${dataMyProject[index].author}
+                <div class="detail-My-Project-content" style="text-align: left;">
+                     ${dataMyProject[index].postAt} | ${dataMyProject[index].author}
                 </div>
+
                 <p style="text-align: center;">
                    ${dataMyProject[index].content}
                 </p>
